@@ -4,3 +4,12 @@ python-dotenv==0.19.0
 roboflow==1.0.9
 opencv-python==4.5.3.56
 gunicorn==20.1.0
+
+# Use specific numpy that doesn't require building
+numpy==1.24.3
+
+# Use headless OpenCV (doesn't require GUI dependencies)
+opencv-python-headless==4.8.0.74
+
+# Add Roboflow last to avoid dependency conflicts
+roboflow==1.0.9
